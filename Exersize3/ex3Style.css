@@ -1,0 +1,84 @@
+body
+{
+  background-color: rgb(254, 201, 199);
+}
+
+h1
+{
+  font-family: arial;
+  font-size: 35pt;
+  color: rgb(0, 0, 0);
+}
+
+body
+{
+    background-image: url(roseshield.png);
+    background-repeat: repeat-x;
+    background-size: 10% 8.5%;
+    background-attachment: local;
+}
+
+p1
+{
+  background-color: black;
+  color: rgb(125, 206, 170);
+  font-family: arial;
+  font-size: 25pt;
+}
+
+h2
+{
+  font-family: arial;
+  font-size: 35pt;
+  color: rgb(0, 0, 0);
+}
+
+button
+{
+  padding: 40px 35px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  font-family: arial;
+  color: black;
+}
+
+button.Humble_button:hover
+{
+  background-color: red;
+  border: solid;
+  border-color: black;
+  color: white;
+}
+
+button.Spreadsheet_button:hover
+{
+  background-color: black;
+  border: solid;
+  border-color: white;
+  color: green;
+}
+
+button.Steam_button:hover
+{
+  background-color: rgb(48, 66, 81);
+  border: solid;
+  border-color: rgb(0, 0, 0);
+  color: rgb(72, 122, 164);
+}
+
+h3
+{
+  font-family: arial;
+  font-size: 35pt;
+  color: rgb(0, 0, 0);
+}
+
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
